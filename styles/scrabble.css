@@ -1,0 +1,196 @@
+body {
+	background: #111;
+	font-family: "Arial","Trebuchet MS", sans-serif;
+}
+div.content {
+  border-color: #444;
+}
+div.header {
+	background: url("scrabble/oldhatbanner.jpg") top no-repeat;
+	border-width: 1px 0px;
+	border-color: #222;
+	border-style: solid;
+	width: 800px;
+	
+}
+div.header h1 {
+	font-family: "Courier New",monospace,monospaced;
+	font-weight:bold;
+	letter-spacing: 1px;
+	font-size: 30px;
+	color: #111;
+}
+#navbar {
+	background: #ddd url("scrabble/header_bg.png") repeat-x top;
+}
+#navbar li.logo {
+	background: #ddd url("scrabble/header_left.png");
+}
+#navbar a {
+	text-decoration: none;
+	color: #666;
+	border-bottom: 1px dotted #222;
+}
+a:hover span.short_link{
+	color: #62006a;
+	color: #910;
+}
+div.prefooter {
+	background: url("scrabble/oldhatbanner2.jpg") bottom no-repeat;
+	border-top: 1px solid #222;
+}
+div.blob {
+	background: #ddd;
+	color: #222;
+	font-size: 13px;
+	font-family: "Arial","Trebuchet MS", sans-serif;
+}
+a {
+	color: #62006a;
+	text-decoration: none;
+	color: #a50;
+		color: #910;
+}
+a.visited {
+	color: #82004a;
+}
+a:hover {
+	text-decoration: underline;
+}
+dd p {
+  margin: 0px;
+}
+div.book_a,div.book_b {
+	border-bottom: 1px solid #aaa;
+	clear: both;
+	margin-bottom:0.5em;
+}
+div.review_a,div.review_b {
+	padding: 0.05em 0em;
+	border-bottom: 1px dotted #999;
+}
+div.book_a,div.review_a {
+	background: #e6e6e6;
+}
+div.book_b,div.review_b {
+	background: #d0d0d0;
+}
+div.book_a div.head, div.book_b div.head {
+	border-bottom: 1px dotted #888;
+	text-indent: 0em;
+	padding-left: 0em;
+	margin-left: 0em;
+}
+div.book_a div.head {
+	background: #bbb;
+}
+div.book_b div.head {
+	background: #aaa;
+}
+span.title {
+	font-style:italic;
+}
+span.positive,span.negative,span.zero {
+	font-size: small;
+	color: #000;
+	font-weight: bold;
+}
+div.rating_zero {
+	color: #000000;
+}
+span.positive,div.rating_positive {
+	color: #006600;
+}
+span.negative,div.rating_negative {
+	color: #660000;
+}
+div.rating_positive,div.rating_negative,div.rating_zero {
+	width: 40px;
+	float: right;
+	text-align: center;
+	font-size: 3em;
+	line-height: 15px;
+	border: 1px solid #888;
+	padding: 10px 5px 0px 5px;
+	position: relative;
+	top: -9px;
+	margin-right: 10px;
+	background: #eee;
+}
+div.user_icon {
+	margin: 0.5em;
+	float: left;
+}
+div.user_icon img {
+	border: 1px solid #999;
+	width: 40px;
+	height: 40px;
+}
+div.clear {
+	clear: both;
+	height: 1px;
+}
+div.vote {
+	clear: both;
+	float: right;
+	padding: 2px 4px;
+	background: #eee;
+	border: 1px solid #999;
+	position: relative;
+	top: -0.9em;
+	margin-left: 20px;
+}
+a.vote_up img, a.vote_down img {
+	border-width: 0px;
+}
+a.vote_up {
+	color: #006600;
+}
+a.vote_down {
+	color: #660000;
+}
+div.error, div.warning {
+	text-align: left;
+	margin: 5px auto;
+	width: 700px;
+	padding: 0.5em 1em;
+}
+div.error {
+	color: #600;
+	background: #f6dddd;
+	border: 1px solid #dfaaaa;
+}
+div.warning {
+	color: #650;
+	background: #f6eddd;
+	border: 1px solid #dfcaaa;
+}
+div.blob h1 {  
+  text-align: left;
+  font-weight: bold;
+  font-size: +16pt;
+  border-bottom: 1px solid #ccc;
+}
+div.blob div.tagline {
+  font-size:smaller;
+}
+span.section {
+	float:right;
+	font-style:italic;
+	font-size:8pt;
+	margin-top:-0.25em;
+	margin-right:0.5em;
+}
+span.section_large {
+	float: right;
+	margin: 2em 1em 0.5em 1em;
+	clear:both;
+	font-weight:bold;
+}
+span.in {
+	font-weight: normal;
+	font-style: italic;
+}
+div.clear {
+	height: 1px;
+}

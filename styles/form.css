@@ -1,0 +1,52 @@
+div.row {
+  padding: 3px 0px;
+  clear: left;
+  margin-left: 75px;
+}
+
+div.row div.label {
+  float: left;
+  width: 130px;
+}
+
+div.entry {
+  float: left;
+}
+
+div.check {
+  margin: 4px;
+  width: 16px;
+  height: 16px;
+  float: left;
+}
+
+div.entry input.text, textarea, select {
+  border: 1px solid #999;
+  background: #ccc;
+  padding: 2px 4px;
+  color: #000;
+  font-size: 125%;
+}
+
+.submit {
+  border: 3px double #999;
+  border-top-color: #ccc;
+  border-left-color: #ccc;
+  padding: 0.12em 0.25em;
+  background: #f0f0f0;
+  color: #333;
+  font-weight: bold;
+  font-size: 150%;
+}
+
+.submit:active {
+  border: 3px double #999;
+  border-bottom-color: #ccc;
+  border-right-color: #ccc;
+  background: #ccc;
+  text-decoration: none;
+}
+
+div.right {
+  vertical-align: bottom;
+}

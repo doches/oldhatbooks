@@ -1,0 +1,85 @@
+.button {
+	border: 1px solid #aac;
+	color:  #006;
+	background: #eef;
+	padding: 0.5em 1em;
+	font-size: 10pt;
+}
+.button:hover {
+	text-decoration: none;
+	background: #e0e0f0;
+	color: 22f;
+	border-color: #a0a0c0;
+}
+div.pending_review {
+	border: 1px solid #aaa;
+	padding: 0.2em;
+	margin: 0.5em;
+	-moz-border-radius: 6px;
+	background: #eee;
+//	-moz-box-shadow: 0px 0px 3px #aaa;
+}
+div.pending_review span.name {
+	font-weight: bold;
+}
+div.pending_review span.email {
+	font-style: italic;
+}
+div.pending_review blockquote {
+	margin-top: 0px;
+}
+div.pending_review h1 {
+	text-align: left;
+	font-weight: normal;
+	margin: 0px;
+	padding: 2px 1em;
+	font-size: small;
+}
+div.pending_review h1 span.title {
+	font-weight: bold;
+	font-style: italic;
+}
+div.pending_review h1 .delete {
+	float: right;
+	margin: 0px;
+	padding: 0px;
+	position: relative;
+	left: 10px;
+	top: -1px;
+	border: 1px solid #f0d0d0;
+	height: 16px;
+	border: 1px solid #a88;
+	-moz-border-radius: 6px;
+}
+div.logout,div.approve {
+	text-align: center;
+	margin-bottom: 0.5em;
+}
+div.logout a {
+	color: #730;
+	border: 1px solid #ca6;
+	padding: 0.25em 0.5em;
+	background-color: #ffefe0;
+	-moz-border-radius: 8px;
+	font-weight: bold;
+	font-size: 14pt;
+}
+div.logout a:hover {
+	text-decoration: none;
+	background-color: #f0c0a0;
+	border-color: #a84;
+}
+.approve a {
+	color: #370;
+	border: 1px solid #ac6;
+	padding: 0.25em 0.5em;
+	background-color: #efffe0;
+	-moz-border-radius: 8px;
+}
+.approve a:hover {
+	text-decoration: none;
+	background-color: #e0f0a0;
+}
+a img {
+	border-width: 0px;
+}

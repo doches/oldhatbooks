@@ -1,0 +1,181 @@
+body {
+	background: #111;
+	font-family: "Arial","Trebuchet MS", sans-serif;
+}
+div.content {
+	width: 800px;
+	border: 1px solid #444;
+	margin: 0px auto;
+	padding: 1px;
+}
+div.header {
+	background: url("orangey/banner.jpg") top no-repeat;
+	width: 800px;
+	height: 30px;
+	border-width: 1px 0px;
+	border-color: #666;
+	border-style: solid;
+	padding-top: 98px;
+}
+div.header h1 {
+	margin: 0px;
+	padding: 0px;
+	font-family: "Courier New";
+	font-size: 30px;
+	color: #111;
+	position: relative;
+	top: 8px;
+	text-align: right;
+}
+#navbar {
+	list-style:none;
+	margin: 0px;
+	padding: 0px;
+	height: 48px;
+	background: #ddd url("orangey/header_bg.png") repeat-x top;
+}
+#navbar li {
+	float: left;
+	height: 29px;
+	padding: 14px 12px 1px 12px;
+	width: 120px;
+}
+#navbar li.logo {
+	background: #ddd url("orangey/header_left.png");
+	padding-left: 60px;
+	width: 130px;
+	padding-right: 0px;
+}
+#navbar a {
+	text-decoration: none;
+	color: #666;
+	border-bottom: 1px dotted #222;
+}
+#navbar span.short_link {
+	float: left;
+	font-size: 13px;
+}
+#navbar span.long_link {
+	float: left;
+	clear: both;
+	font-size: 10px;
+}
+a:hover span.short_link{
+	color: #b26a00;
+}
+div.prefooter {
+	height: 15px;
+	clear: both;
+	background: url("orangey/banner2.jpg") bottom no-repeat;
+	border-top: 1px solid #444;
+}
+div.blob {
+	padding: 5px;
+	background: #222;
+	color: #999;
+	background: #ddd;
+	color: #222;
+	font-size: 13px;
+	font-family: sans-serif;
+}
+div.blob p {
+	text-indent: 2em;
+}
+div.blob h1,h2 {
+	margin: 0px;
+	padding: 0px;
+	font-weight: normal;
+	text-align: center;
+}
+div.blob h1 {
+	font-size: 18px;
+}
+div.blob h2 {
+	font-size: 24px;
+}
+div.blob ul {
+	list-style: none;
+}
+div.blob li {
+	margin-bottom: 0.5eh;
+}
+div.blob a.footnote {
+	font-size: smaller;
+	position: relative;
+	top: -5px;
+}
+a {
+	color: #b26a00;
+	text-decoration: none;
+}
+a.visited {
+	color: #824a00;
+}
+a img {
+	border-width: 1px;
+}
+div.footer {
+	width: 800px;
+	margin: 5px auto;
+	text-align: right;
+}
+div.footer img {
+	border-width: 0px;
+}
+dl dt {
+  font-weight: bold;
+  padding-bottom: 0.5em;
+}
+dl dd {
+  padding-bottom: 0.5em;
+}
+a.box {
+  text-align: center;
+  border: 1px solid #666;
+  width:64px;
+  height:64px;
+  padding: 4px;
+}
+table.fullpage {
+  width: 100%;
+  border-color: #666;
+  border-style: solid;
+  border-width: 1px 0px 0px 1px;
+}
+table.fullpage thead tr th, table.fullpage tr td{
+  border-color: #666;
+  border-style: solid;
+  border-width: 0px 1px 1px 0px;
+}
+table.fullpage thead tr th {
+  background: #aaa;
+}
+table.fullpage tr td {
+  padding: 0em 0.5em;
+}
+tr.darker td{
+  background: #bbb;
+}
+table.fullpage tr:hover {
+  background: #a08090;
+}
+
+table.fullpage tr.darker:hover td {
+  background: #886878;
+}
+div.blob dl dd p { 
+  text-indent: 0cm;
+}
+div.biography {
+  float: left;
+  padding: 0em 2em;
+  border-right: 1px solid #aaa;
+  width: 55%;
+  text-align: left;
+}
+div.biography2 {
+  float: right;
+  padding: 0em 2em;
+  width: 25%;
+  text-align: left;
+}
