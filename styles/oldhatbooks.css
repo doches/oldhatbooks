@@ -1,0 +1,118 @@
+body {
+	background: #111;
+	font-family: "Arial","Trebuchet MS", sans-serif;
+	text-align: center;
+}
+div.content {
+	width: 800px;
+	border: 1px solid #444;
+	margin: 0px auto;
+	padding: 1px;
+	text-align: left;
+}
+div.header {
+	background: url("ohb/oldhatbanner.jpg") top no-repeat;
+	width: 800px;
+	height: 30px;
+	border-width: 1px 0px;
+	border-color: #666;
+	border-style: solid;
+	padding-top: 98px;
+}
+div.footer {
+	width: 800px;
+	margin: 6px auto;
+	clear: both;
+	text-align: right;
+}
+a img {
+	border-width: 0px;
+}
+div.blob {
+	width: 798px;
+	background-color: #f2f2f2;
+	padding: 1px;
+	border-top: 1px solid #000;
+}
+div.main_content {
+	width: 599px;
+	float: left;
+	border-right: 1px solid #ddd;
+}
+div.events {
+	width: 185px;
+	float: left;
+	padding: 0px 4px 0px 4px;
+}
+div.prefooter {
+	clear: both;
+	height: 1px;
+}
+div.post, div.event {
+	border: 1px solid #ddd;
+	background-color: #ffffff;
+	padding: 2px 4px;
+	font-size: small;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+div.post {
+	margin: 4px 4px 12px 4px;
+}
+div.post h1 {  
+  text-align: left;
+  font-weight: bold;
+  font-size: +16pt;
+  border-bottom: 1px solid #ccc;
+  margin: 0px auto;
+}
+div.post div.tagline {
+  font-size:smaller;
+  margin-top: 0px;
+}
+div.event {
+	margin: 4px 0px;
+}
+div.event span.title {
+	font-weight: bold;
+	border-bottom: 1px solid #eee;
+	width: 100%;
+	display: block;
+	text-align: center;
+	font-size: 12pt;
+}
+div.event span.date, div.event span.location, div.event span.description {
+	display: block;
+	padding-left: 8px;
+	clear: both;
+}
+div.event span.description p {
+	margin: 0px;
+}
+div.event em {
+	clear: both;
+	display: block;
+	font-size: smaller;
+	margin-top: 8px;
+}
+a.facebook {
+	background: #D1DCE4;
+	border: 1px solid #C1CCD4;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	text-decoration: none;
+	color: #010C34;
+	display: block;
+	padding-bottom: 1px;
+	margin-top: 8px;
+}
+a.facebook:hover {
+	background: #B1BCD4;
+	border: 1px solid #A1ACB4;
+}
+a.facebook img {
+	position: relative;
+	top: 2px;
+	left: 2px;
+	padding-right: 8px;
+}

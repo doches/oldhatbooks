@@ -1,6 +1,7 @@
 <?php
 
 require_once("lib/post.php");
+require_once("lib/event.php");
 
 class DB
 {
@@ -140,12 +141,32 @@ class DB
 		return 0;
 	}
 	
+	public function get_events($limit = 2) {
+		$sql = "SELECT events.* from events order by date desc limit $limit";
+		$res = $this->fetch($sql);
+		$events = Array();
+		foreach($res as $list) {
+			array_push($events, new Event($list->title,$list->date,$list->location,$list->description,$list->link,$list->id));
+		}
+		return $events;
+	}
+	
 	public function get_latest_post() {
 		$sql = "SELECT posts.*, users.username, users.email FROM posts LEFT JOIN users ON posts.author_id = users.id order by date desc limit 1"; // TODO user join
 		$res = $this->fetch($sql);
 		$res = $res[0];
 		$post = new Post($res->subject,$res->text,$res->username,$res->date,$res->email,$res->id);
 		return $post;
+	}
+	
+	public function get_latest_posts($limit=4) {
+		$sql = "SELECT posts.*, users.username, users.email FROM posts LEFT JOIN users ON posts.author_id = users.id order by posts.id desc limit $limit";
+		$res = $this->fetch($sql);
+		$posts = Array();
+		foreach($res as $list) {
+			array_push($posts, new Post($list->subject,$list->text,$list->username,$list->date,$list->email,$list->id));
+		}
+		return $posts;
 	}
 
 	public function get_post($id) {
