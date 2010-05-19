@@ -34,6 +34,68 @@ div.blob {
 	padding: 1px;
 	border-top: 1px solid #000;
 }
+div.search_info {
+	background-color: #Ffd199;
+	border-width: 0px 1px 1px 1px;
+	border-style: solid;
+	border-color: #d4a169;
+	position: relative;
+	top: -1px;
+	margin: 0px 20px;
+	-moz-border-radius: 0px 0px 8px 8px;
+	-webkit-border-radius: 0px 0px 8px 8px;
+	padding: 0px 0px 0px 12px;
+}
+div.search_info img {
+	float: left;
+}
+div.search_info div.box {
+	float: left;
+	width: 25%;
+	border-style: solid;
+	border-color: #d4a169;
+	border-width: 0px;
+}
+div.search_info h1 {
+	margin: 0px;
+	padding: 6px 4px;
+	font-size: 14pt;
+	text-align: center;
+}
+div.search_info div.box form {
+	text-align: center;
+}
+input {
+	font-size: 12pt;
+}
+#search, input.submit {
+	border: 1px solid #d4a169;
+	background-color: #Fff0e6;
+	padding: 2px 4px;
+	-moz-border-radius: 4px;
+	color: #666;
+}
+input.submit {
+	padding: 1px 4px;
+	color: #000;
+}
+input.submit:hover {
+	background-color: #f4c189;
+	border-color: #d4a169;
+}
+#left {
+	border-right-width: 1px;
+	width: 74%;
+}
+h1.section {
+	margin: 8px 16px;
+	padding: 2px 0px;
+	text-align: center;
+	font-size: medium;
+	background-color: #333;
+	color: #eee;
+	-moz-border-radius: 6px;
+}
 div.main_content {
 	width: 599px;
 	float: left;
@@ -69,6 +131,13 @@ div.post h1 {
 div.post div.tagline {
   font-size:smaller;
   margin-top: 0px;
+  color: #666;
+  font-style: italic;
+}
+div.post div.tagline span.author, div.post div.tagline span.date {
+	color: #000;
+	font-size: small;
+	font-style: normal;
 }
 div.event {
 	margin: 4px 0px;
@@ -115,4 +184,19 @@ a.facebook img {
 	top: 2px;
 	left: 2px;
 	padding-right: 8px;
+}
+
+#rss_sidebar {
+	position: relative;
+	top: -100px;
+	left: -42px;
+	width: 32px;
+	float: left;
+	padding: 6px 4px;
+	height: 32px;
+	background: #f2f2f2;
+	border-width: 1px 0px 1px 1px;
+	border-color: #444;
+	border-style: solid;
+	-moz-border-radius: 6px 0px 0px 6px;
 }

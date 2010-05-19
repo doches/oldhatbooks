@@ -18,7 +18,7 @@ class Post {
 	}
 	
 	public function toHTML($show_byline = true) {
-		$byline = "<div class=\"tagline\">By {$this->author} on {$this->date}</div>";
+		$byline = "<div class=\"tagline\">By <span class=\"author\">{$this->author}</span> on <span class=\"date\">{$this->date}</span></div>";
 		if(!$show_byline) {
 			$byline = "";
 		}
