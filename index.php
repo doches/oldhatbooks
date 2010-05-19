@@ -5,6 +5,7 @@ require_once("lib/db.php");
 $db = new DB();
 $page = new Page("template.html");
 $page->title = "Welcome to Old Hat Books";
+$page->body = "onload='onLoad();'";
 $page->head = <<<HTM
   <script type="text/javascript">
     function onLoad() {
